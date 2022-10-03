@@ -221,3 +221,120 @@ body {
     font-size: 24px;
   }
 }
+
+/* ==========DOWNLOAD===== */
+.download {
+  display: flex;
+  flex-direction: column;
+  padding: 155px 0px 0px 0px;
+}
+.download__content {
+  background: url(img/main/background.png);
+  background-size: cover;
+  padding: 73px 30px 145px 30px;
+}
+.content-download {
+}
+.content__text {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #f7f7f7;
+}
+.content__title {
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 80px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  padding: 20px 0px 20px 0px;
+}
+.content__subtitle {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #f7f7f7;
+  padding: 0px 0px 50px 0px;
+}
+.download__actions {
+  display: flex;
+  justify-content: center;
+}
+.actions__button {
+  padding: 15px 60px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+  border-radius: 30px;
+}
+.button-play {
+  background: #fa4a0c;
+  margin-right: 50px;
+}
+.button-app {
+  border: 1px solid #ffffff;
+}
+.download__media {
+  margin-top: -270px;
+  text-align: center;
+}
+
+@media (max-width: 1086.98px) {
+  .content__title {
+    font-size: 42px;
+  }
+}
+@media (max-width: 767.98px) {
+  .download {
+    padding: 110px 0px 0px 0px;
+  }
+  .download__content {
+    background: #fafafa;
+    padding: 73px 15px 145px 15px;
+  }
+  .content__text {
+    color: #737373;
+    font-size: 18px;
+  }
+  .content__title,
+  .content__subtitle {
+    color: #000000;
+  }
+  .content__subtitle {
+    font-size: 18px;
+  }
+  .content__title {
+    line-height: 50px;
+    font-size: 35px;
+  }
+  .download__actions {
+    flex-direction: column;
+    align-items: center;
+    max-width: 245px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+  }
+  .button-play {
+    margin: 0px 0px 20px 0px;
+  }
+  .button-app {
+    border: 1px solid #fa4a0c;
+    color: #fa4a0c;
+  }
+  .download__media img {
+    width: 100%;
+    margin-left: -60px;
+    margin-top: 50px;
+  }
+  .download__media {
+    background: #fafafa;
+  }
+}
