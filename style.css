@@ -281,13 +281,26 @@ body {
 .button-play {
   background: #fa4a0c;
   margin-right: 50px;
+  transition: all 0.3s ease 0s;
+}
+.button-play:hover {
+  background: #9c320b;
 }
 .button-app {
   border: 1px solid #ffffff;
+  transition: all 0.3s ease 0s;
+}
+.button-app:hover {
+  background: #beb5b1;
+  border: 1px solid #beb5b1;
 }
 .download__media {
-  margin-top: -270px;
+  margin-top: -100px;
+  margin-bottom: 125px;
   text-align: center;
+}
+.download__media img {
+  padding: 0px 30px 0px 30px;
 }
 
 @media (max-width: 1086.98px) {
@@ -334,6 +347,7 @@ body {
     width: 100%;
     margin-left: -60px;
     margin-top: 50px;
+    padding: 0px 0px 0px 60px;
   }
   .download__media {
     background: #fafafa;
