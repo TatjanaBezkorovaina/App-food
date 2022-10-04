@@ -37,6 +37,7 @@ body {
   font-family: Montserrat;
   font-size: 24px;
   color: #737373;
+  background: #fafafa;
 }
 
 .wrapper {
@@ -74,6 +75,7 @@ body {
 
 /* ==========HEADER============= */
 .header {
+  background-color: #fff;
   position: absolute;
   width: 100%;
   top: 0;
@@ -226,7 +228,7 @@ body {
 .download {
   display: flex;
   flex-direction: column;
-  padding: 155px 0px 0px 0px;
+  padding: 130px 0px 0px 0px;
 }
 .download__content {
   background: url(img/main/background.png);
@@ -481,7 +483,7 @@ body {
   background: #fafafa;
 }
 .checkout__container {
-  padding: 80px 150px 50px 255px;
+  padding: 80px 150px 200px 255px;
 }
 .checkout__content {
 }
@@ -505,7 +507,49 @@ body {
 
 @media (max-width: 767.98px) {
   .checkout__container {
-    padding: 80px 30px 0px 30px;
+    padding: 80px 30px 70px 30px;
     text-align: center;
+  }
+}
+
+/* =====download-bottom========= */
+.download {
+}
+.download__bottom {
+  padding: 0px 0px 100px 0px;
+}
+.download__content {
+}
+.content-download__bottom {
+  background: url(img/bgr2.png);
+  background-size: cover;
+}
+.content__title-down {
+  padding: 70px 0px 15px 0px;
+}
+.content__subtitle {
+}
+.download__actions {
+}
+.actions__button {
+}
+.actions__button-down {
+  border-radius: 10px;
+}
+.button-play {
+}
+.button-app {
+}
+
+@media (max-width: 767.98px) {
+  .content-download__bottom {
+    background: #252b42;
+    padding: 50px 15px 145px 15px;
+  }
+  .content__title-down {
+    color: #ffffff;
+  }
+  .content__subtitle-down {
+    color: #bdbdbd;
   }
 }
